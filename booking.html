@@ -100,6 +100,20 @@
 
   .tel-link:hover { color: var(--gold); }
 
+  .email-link {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(245,242,235,0.65);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(184,147,62,0.4);
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    transition: color 0.2s;
+  }
+
+  .email-link:hover { color: var(--off-white); }
+
   .tel-label {
     font-size: 12px;
     letter-spacing: 0.18em;
@@ -129,6 +143,9 @@
     <p>In the meantime, just give us a call or send a text and we'll get you sorted.</p>
     <a href="tel:0220962925" class="tel-link">022 096 2925</a>
     <p class="tel-label">Call or text to book</p>
+    <p style="font-size:14px; color:rgba(245,242,235,0.45); margin-bottom:12px;">Prefer email? We'll get back to you within a day or two.</p>
+    <a href="mailto:ben@sharpasservices.com" class="email-link">ben@sharpasservices.com</a>
+    <p class="tel-label" style="margin-bottom:48px;">Email enquiries</p>
     <a href="index.html" class="back-link">← Back to site</a>
   </div>
 </body>
